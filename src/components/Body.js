@@ -1,14 +1,12 @@
 import React, {Component} from 'react';
-import {View, Image} from 'react-native';
+import {View, Text} from 'react-native';
 
-class Body extends Component() {
+export default class Body extends Component {
     render() {
         return (
             <View>
-                <Image></Image>
+                <Text>burda body text olacak</Text>
             </View>
         );
     }
 }
-
-export default Body;
