@@ -15,8 +15,8 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Head></Head>
-        <Body></Body>
+        <Head style={styles.head}></Head>
+        <Body style={styles.body}></Body>
       </View>
     );
   }
@@ -24,8 +24,15 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     backgroundColor: '#F5FCFF',
     marginTop: 10
+  },
+  head: {
+    flex: 1,
+    borderBottomColor: "rgb(233,233,233)",
+    borderBottomWidth: StyleSheet.hairlineWidth
+  },
+  body: {
+    flex: 2
   }
 });
