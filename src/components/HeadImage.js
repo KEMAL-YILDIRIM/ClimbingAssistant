@@ -1,7 +1,16 @@
 import React, {Component} from 'react';
-import {StyleSheet, View, Image} from 'react-native';
+import {StyleSheet, View, Image, Dimensions} from 'react-native';
 
 export default class HeadImage extends Component {
+    constructor() {
+        super();
+        this.state = {
+            screenWidth: Dimensions
+                .get('window')
+                .width
+        };
+    }
+
     render() {
         return (
             <View style={styles.container}>
