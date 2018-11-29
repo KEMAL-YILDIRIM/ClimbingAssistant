@@ -15,6 +15,6 @@ const styles = StyleSheet.create({
     title: {
         fontFamily: 'calibri',
         fontSize: 24,
-        
+        textAlign: 'center'
     }
 });

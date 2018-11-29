@@ -5,7 +5,6 @@ export default class Body extends Component {
     render() {
         return (
             <View>
-                <Text>burda body text olacak</Text>
             </View>
         );
     }

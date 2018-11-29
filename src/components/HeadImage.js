@@ -1,12 +1,10 @@
 import React, {Component} from 'react';
-import {StyleSheet, View, Image, Text} from 'react-native';
-import Title from './Title.js';
+import {StyleSheet, View, Image} from 'react-native';
 
-export default class Head extends Component {
+export default class HeadImage extends Component {
     render() {
         return (
-            <View>
-                <Title/>
+            <View style={styles.container}>
                 <Image
                     style={styles.image}
                     source={{
@@ -18,7 +16,9 @@ export default class Head extends Component {
 }
 
 const styles = StyleSheet.create({
+    container: {},
     image: {
-        height: 100
+        height: 100,
+        resizeMode: 'cover'
     }
 });
