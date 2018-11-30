@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {StyleSheet, View, Image, Dimensions} from 'react-native';
 
-export default class HeadImage extends Component {
+export default class Banner extends Component {
     constructor() {
         super();
         this.state = {
