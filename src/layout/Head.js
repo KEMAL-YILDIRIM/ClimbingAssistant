@@ -9,7 +9,6 @@ export default class Head extends Component {
         return (
             <View style={styles.container}>
                 <Title/>
-                <Banner/>
                 <UserMenu/>
             </View>
         );

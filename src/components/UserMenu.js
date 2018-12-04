@@ -23,13 +23,12 @@ export default class UserMenu extends Component {
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        alignItems: 'center'
     },
     user: {
         flexDirection: 'row',
         alignItems: 'center'
     },
-    more: {
-        alignItems: 'center'
-    }
+    more: {}
 });

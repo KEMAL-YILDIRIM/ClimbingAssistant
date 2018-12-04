@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {StyleSheet, View} from 'react-native';
 import Head from './Head.js';
 import Body from './Body.js';
+import {Color} from '../content/Content';
 
 export default class App extends Component {
   render() {
@@ -20,9 +21,8 @@ const styles = StyleSheet.create({
     marginTop: 10
   },
   head: {
-    borderBottomColor: "rgb(233,233,233)",
+    borderBottomColor: Color.Crimson,
     borderBottomWidth: StyleSheet.hairlineWidth
   },
-  body: {
-  }
+  body: {}
 });
