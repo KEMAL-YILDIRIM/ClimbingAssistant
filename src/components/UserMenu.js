@@ -12,9 +12,7 @@ export default class UserMenu extends Component {
                     <Avatar/>
                     <UserName/>
                 </View>
-                <View style={styles.more}>
-                    <More/>
-                </View>
+                <More/>
             </View>
         );
     }
@@ -23,12 +21,10 @@ export default class UserMenu extends Component {
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center'
+        justifyContent: 'space-between'
     },
     user: {
         flexDirection: 'row',
         alignItems: 'center'
-    },
-    more: {}
+    }
 });
